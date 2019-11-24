@@ -10878,3 +10878,61 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+
+
+/* Opacity with Box */
+.p-container {
+  position: relative;
+  width: 100%;
+}
+
+.p-image {
+  opacity: 1;
+  display: block;
+  /* max-width: 100%;
+  height: auto; */
+  transition: .5s ease;
+  backface-visibility: hidden;
+  /* padding-right: 20%; */
+
+  height: 100%;
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+
+}
+
+.p-middle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #061D25;
+}
+
+.p-container:hover .p-image {
+  opacity: 0.3;
+}
+
+.p-container:hover .p-middle {
+  opacity: 1;
+}
+
+.p-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

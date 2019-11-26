@@ -1,8 +1,8 @@
-# [Bootstrap Portfolio Project](https://supercarboy88.github.io/Bootstrap-Portfolio/)
+# [Portfolio Project](https://supercarboy88.github.io/Updated-Portfolio/)
 
 ## About
 
-This is Bootstrap Portfolio Project, based on our last Basic Portfolio but using Bootstrap. I choose a free Bootstrap template from Start Boostrap and apply to my last Basic Portfolio.
+This is my updated Portfolio Project.
 
 ## Preview
 
